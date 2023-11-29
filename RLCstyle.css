@@ -94,3 +94,12 @@ form {
     padding: 25px;
     border-radius: 5px;
 }
+
+.footerfix {
+    color: white;
+    text-decoration: none; 
+}
+
+.footerfix:hover {
+    text-decoration: underline;
+}
