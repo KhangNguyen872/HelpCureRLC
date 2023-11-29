@@ -55,6 +55,12 @@ form {
     width:auto;
 }
 
+.aboutImg {
+    width: 470px;
+    border-radius: .5em;
+    border: 5px solid #009cdc;
+}
+
 .submit {
     display: block;
     width: 100%;
