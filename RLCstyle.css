@@ -62,6 +62,10 @@ form {
     background-color: #009cdc;
 }
 
+.submitx {
+    text-decoration: none;
+}
+
 .surveybg {
     background-color: #009cdc;
 }
@@ -103,3 +107,8 @@ form {
 .footerfix:hover {
     text-decoration: underline;
 }
+
+.thanktx {
+    color:white;
+}
+
