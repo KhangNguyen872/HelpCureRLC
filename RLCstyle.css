@@ -78,3 +78,19 @@ form {
 .fix {
     text-align: center;
 }
+
+.infoimg {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.bigtx {
+    font-size: 15px;
+    margin-left: -20%;
+}
+
+.bgwhite {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
