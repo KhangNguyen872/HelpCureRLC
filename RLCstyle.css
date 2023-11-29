@@ -58,14 +58,14 @@ form {
 .aboutImg {
     width: 470px;
     border-radius: .5em;
-    border: 5px solid #009cdc;
+    border: 5px solid #5280B7;
 }
 
 .submit {
     display: block;
     width: 100%;
     padding: 10px 10px;
-    background-color: #009cdc;
+    background-color: #5280B7;
 }
 
 .submitx {
@@ -73,7 +73,7 @@ form {
 }
 
 .surveybg {
-    background-color: #009cdc;
+    background-color: #5280B7;
 }
 
 .galatx {
@@ -116,5 +116,6 @@ form {
 
 .thanktx {
     color:white;
+    text-decoration: none;
 }
 
