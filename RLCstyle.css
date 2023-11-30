@@ -6,6 +6,10 @@ form {
     background-color: white;   
 }
 
+#cancerImg {
+    width: 119%;
+}
+
 .logo {
     width: 200px;
 }
