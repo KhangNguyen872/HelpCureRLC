@@ -7,11 +7,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-      <img class="logo rounded-pill mx-1 my-1" src="logo.png" alt="IDFK" href="home.index.html">
+      <img class="logo rounded-pill mx-1 my-1" src="logo.png" alt="IDFK">
+      <span class="seperatorBlock"></span>
       <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto mx-2">
+        <ul class="navbar-nav mx-2">
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item mx-1">
             <a class="nav-link" href="donate.html">Donate</a>
           </li>
@@ -28,60 +32,54 @@
       </div>
     </div>
   </nav>
-    <div class="container mt-5">
-        <div class="row">
-          <div id = "donateTodayTag" class="col-sm-4">
-            <h3>We are Cancer Free!</h3>
-            <p>Our mission is to end cancer, once and for all!</p>
-            <p>With your help we can save millions: Donate Now!</p>
-            <a href="donate.html">
-              <button type="button" class="btn btn-primary">
-                Donate Here
-              </button>
-            </a>
 
-          </div>
-          <div class="col-sm-4">
-            <!-- Carousel -->
-            <div id="demo" class="slidesize carousel slide mb-5" data-bs-ride="carousel">
+  <sec class="banner">
 
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
+    <video autoplay loop muted plays-inline class="videoSizer">
+      <source  src="videoBanner.mp4" type="video/mp4">
+    </video>
 
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="patient.png" alt="Los Angeles" class="d-block w-100 roundedCorners">
-                </div>
-                <div class="carousel-item">
-                    <img src="researching.png" alt="Chicago" class="d-block w-100 roundedCorners">
-                </div>
-                <div class="carousel-item" id="cancerImg">
-                    <img src="https://puntfoundation.org/wp-content/uploads/2019/10/PUNT_Banner_Costs-of-Cancer.jpg" alt="New York" class="d-block w-100 roundedCorners">
-                </div>
-                </div>
-
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <div class="container-fluid p-5 bg-dark text-white text-center">
-        <h1>Gala Information</h1>
-        <p>We will be hosting a gala to promote cancer research. There will be dancing, food, music, and other entertainment for the gala. Inorder to attend please fill out the sign-up sheet, if there is any question please contact us. Additional information about the party will be recieved after signing-up.</p>
-        <a class="signup" href="gala.html">Sign-up here!</a>
+    <div class="bannerContent">
+        <h1>We Are Here For You!</h1>
+        <a href="donate.html">Support Us!</a>
     </div>
-    <br><br><br>
+  </sec>
+
+  <div class="bg-dark">
+    <div class="container-fluid p-5 bg-dark text-white text-center col-md-10 offset-md-1">
+        <h1>Gala Information</h1>
+        <p>Join us for an elegant night supporting cancer research!
+          <br>
+          Event Highlights:
+          <br><br>
+          Dancing: Put on your dancing shoes and groove to live music.
+          <br>
+          Food: Delight in a curated menu of delightful dishes.
+          <br>
+          Music: Immerse yourself in soulful tunes from talented musicians.
+          <br>
+          Entertainment: Experience a night of surprises, laughter, and memorable moments.
+          <br><br>
+          How to Attend:
+          <br>
+          Secure your spot by filling out the sign-up sheet here. <br> For questions or assistance, contact us at khangng872@gmail.com.
+          <br><br>
+          Important Information:
+          <br>
+          Upon signing up, you'll receive details about the gala, including venue, schedule,<br> and instructions. We look forward to your presence for an elegant and meaningful night.
+          <br><br>
+          Thank you for supporting cancer research. Together, we make a difference!
+          <br><br>
+          Warm regards,
+          <br>
+          HelpCure          
+        </p>
+        <br><br>
+        <a class="signup" href="gala.html">Sign-up here!</a>
+        <br><br>
+      </div>
+  </div>
+    <br><br><br><br><br>
     <div class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
@@ -90,13 +88,15 @@
         <div class="col-sm-4">
         </div>
         <div class="col-sm-4">
-          <h3>About Us</h3>        
+          <h3 class="h3SizeUp">About Us</h3>        
           <p class="bigtx">Here at Cancer Free we invest 100% of our funds, donations, and times into cancer research and helping people who have been less fortunate with cancer.</p>
           <p class="bigtx">We accept anybody in need and do not discriminate on race, gender, or status. We make sure everybody feels welcomed and that they are in a healthy enviroment. We also make sure that at the end of the day not a single person will pay a bill.</p>
         </div>
       </div>
     </div>
-    <br><br><br><br>
+  </div>
+    
+    <br><br><br><br><br><br>
     <footer>
         <div class="container-fluid p-5 bg-dark text-white text-center">
           <div class="container mt-3">    
