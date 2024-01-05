@@ -35,45 +35,45 @@
   </nav>
   <br><br><br>
   <h1 class="galatx">Donation Form</h1>
-  <form class="survey">  
+  <form class="survey" action="DONATEthank.html">  
     <fieldset>
         <div class="control"> 
             <label class="question">First Name</label>
-            <input type="text" name="FirstName" placeholder="Enter your first name">
+            <input type="text" name="FirstName" placeholder="Enter your first name" required>
         </div>
         <div class="control"> 
             <label class="question">Last Name</label>
-            <input type="text" name="FirstName" placeholder="Enter your last name">
+            <input type="text" name="FirstName" placeholder="Enter your last name" required>
         </div>
 
         <div class="control"> 
             <label class="question">Phone Number</label>
-            <input type="text" name="contact" placeholder="Enter a phone number">
+            <input type="text" name="contact" placeholder="Enter a phone number" required>
         </div>
 
         <div class="control"> 
             <label class="question">Email</label>
-            <input type="text" name="email" placeholder="Enter an email">
+            <input type="text" name="email" placeholder="Enter an email" required>
         </div>
 
         <div class="control"> 
           <label class="question">Card Number</label>
-          <input type="text" name="card" placeholder="Enter banking info">
+          <input type="text" name="card" placeholder="Enter banking info" required>
         </div>
 
         <div class="control"> 
           <label class="question">Security Number</label>
-          <input type="text" name="sec" placeholder="Enter security code">
+          <input type="text" name="sec" placeholder="Enter security code" required>
         </div>
 
         <div class="control"> 
           <label class="question">EXP date</label>
-          <input type="text" name="exp" placeholder="Enter EXP date">
+          <input type="text" name="exp" placeholder="Enter EXP date" required>
         </div>
 
         <div class="control"> 
           <label class="question">Name on Card</label>
-          <input type="text" name="exp" placeholder="Enter name">
+          <input type="text" name="exp" placeholder="Enter name" required>
         </div>
 
         <div class="control"> 
@@ -83,12 +83,10 @@
             <input type="radio" name="20"> $20
             <input type="radio" name="50"> $50
             <input type="radio" name="100"> $100
-            </div>
-        <a class="txFix" href="DONATEthank.html">
-          <button class="submit text-white" type="button">
-            Submit
-          </button>
-        </a>
+        </div>
+        <button class="submit text-white" type="submit">
+          Submit
+        </button>
     </fieldset>
   </form>
   <footer>

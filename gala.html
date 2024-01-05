@@ -35,35 +35,35 @@
   </nav>
   <br><br><br>
   <h1 class="galatx">Gala Form Sign-up</h1>
-  <form class="survey">  
+  <form class="survey" action="GALAthank.html">  
     <fieldset>
         <div class="control"> 
             <label class="question">First Name</label>
-            <input type="text" name="FirstName" placeholder="Enter your first name">
+            <input type="text" name="FirstName" placeholder="Enter your first name" required>
         </div>
         <div class="control"> 
             <label class="question">Last Name</label>
-            <input type="text" name="FirstName" placeholder="Enter your last name">
+            <input type="text" name="FirstName" placeholder="Enter your last name" required>
         </div>
 
         <div class="control"> 
             <label class="question">Age</label>
-            <input type="text" name="age" placeholder="Enter your age">
+            <input type="text" name="age" placeholder="Enter your age" required>
         </div>
 
         <div class="control"> 
             <label class="question">Location</label>
-            <input type="text" name="address" placeholder="Enter an address">
+            <input type="text" name="address" placeholder="Enter an address" required>
         </div>
 
         <div class="control"> 
             <label class="question">Phone Number</label>
-            <input type="text" name="contact" placeholder="Enter a phone number">
+            <input type="text" name="contact" placeholder="Enter a phone number"required>
         </div>
 
         <div class="control"> 
             <label class="question">Email</label>
-            <input type="text" name="email" placeholder="Enter an email">
+            <input type="text" name="email" placeholder="Enter an email" required>
         </div>
 
         <div class="control"> 
@@ -74,14 +74,11 @@
 
         <div class="control"> 
             <label class="question">List Any Allergies You Have</label>
-            <textarea placeholder="Enter any allergies"></textarea>
+            <textarea placeholder="Enter any allergies" required></textarea>
         </div>
-
-        <a class="txFix" href="GALAthank.html">
-            <button class="submit text-white" type="button">
-              Submit
-            </button>
-          </a>
+        <button class="submit text-white" type="submit">
+          Submit
+        </button>
     </fieldset>
   </form>
   <footer>
