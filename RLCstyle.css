@@ -230,6 +230,18 @@ input, textarea {
     z-index: 10;
 }
 
+.blenderBox {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    top: 220vh;
+    left: -0vh;
+    background: linear-gradient(to top, white, transparent);
+    z-index: 10;
+}
+
 
 .bannerContent a {
     margin-top: 3vh;
