@@ -12,6 +12,10 @@ form {
     height:90px;
 }
 
+footer {
+    top: 0%;
+}
+
 .seperatorBlock {
     content: "";
     width: 3px;
@@ -187,8 +191,8 @@ input, textarea {
     font-weight: 600;
 
     text-shadow: 
-    0 0 0.125em white,
-    0 0 0.25em black ;
+    0 0 0.25em black,
+    1px 0 0.5em black ;
     -webkit-text-stroke: 2px white;
     color: transparent;
 
@@ -236,7 +240,7 @@ input, textarea {
     bottom: 0;
     width: 100%;
     height: 100px;
-    top: 220vh;
+    top: 228vh;
     left: -0vh;
     background: linear-gradient(to top, white, transparent);
     z-index: 10;
@@ -255,8 +259,8 @@ input, textarea {
     0 0 0.125em black,
     0 0 0.25em black ;
     box-shadow: 
-    0 0 0.125em white,
-    0 0 1.25em black ;
+        0 0 2.25em black,
+        2px 2px 2.5em black;
 }
 
 .bannerContent a:hover {
